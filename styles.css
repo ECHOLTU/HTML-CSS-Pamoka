@@ -2,9 +2,133 @@ body {
     margin: 0;
 }
 header {
-    padding-left: 30px;
+    align-items: center;
     display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
 }
-.header-logo-text {
-    padding: 10px;
+
+.navigation {
+    align-items: center;
+    display: none;
+    height: 100%;
+}
+.header-right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.Logo {
+    display: flex;
+    gap: 10px;
+}
+aside img {
+    position: absolute;
+    left: 270px;
+    height: 280px;
+}
+.aside-wrapper {
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+.purple-text {
+    color: pink;
+}
+.h1-text {
+    font-weight: 900;
+    font-size: 42px;
+    position: relative;
+    width: 250px;
+}
+.main-button {
+    background-color: transparent;
+    color: black;
+    border-color: lightcoral;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+aside p {
+    width: 250px;
+    padding-bottom: 10px;
+    color: #555555;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.under-aside {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    background-image: linear-gradient(to right, rgba(238, 67, 147, 0.719), rgb(223, 130, 43), rgb(133, 207, 133));
+}
+
+section p,h2 {
+    width: 250px;
+}
+main {
+    padding: 20px;
+}
+.one-line-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px 20px;
+    margin: 0px;
+}
+.content-box {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+.main-section {
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+}
+.section-div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.Avataras2 {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    position: absolute;
+    width: 290px;
+    height: 400px;
+    left: 32px;
+}
+.Gloop {
+    color: orange;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+}
+.Gloop-color {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+.Gloop-number {
+    color: #777777;
+}
+.scroll-section {
+    display: flex;
 }
