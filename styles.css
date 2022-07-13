@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+header {
+    padding-left: 30px;
+    display: flex;
+}
+.header-logo-text {
+    padding: 10px;
+}
