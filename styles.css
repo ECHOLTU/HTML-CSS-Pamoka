@@ -40,24 +40,45 @@ aside {
     gap: 10px;
     margin: 40px;
 }
-aside img {
+.images-bendras {
     position: absolute;
     left: 1200px;
     height: 350px;
 }
-@media only screen and (min-width: 1020px) {
-    
+@media only screen and (max-width: 620px) {
+    .images-bendras {
+        left: 230px;
+    }
+}
+.images-bendras2 {
+    position: absolute;
+    left: 1800px;
+    height: 350px;
+}
+@media only screen and (max-width: 620px) {
+    .images-bendras2 {
+        left: 230px;
+    }
 }
 
 .aside-wrapper {
     width: 1300px;
+}
+@media only screen and (max-width: 620px) {
+    .aside-wrapper {
+        padding: 0 20px;
+    }
 }
 
 .aside-wrapper p {
     width: 100%;
     max-width: 700px;
 }
-
+@media only screen and (max-width: 620px) {
+    .aside-wrapper p {
+        width: 330px;
+    }
+}
 .purple-text {
     color: #FF3998;
 }
@@ -68,9 +89,12 @@ aside img {
     max-width: 800px;
     width: 100%;
     font-family: 'Inter';
-
 }
-
+@media only screen and (max-width: 620px) {
+    .h1-text {
+        width: 260px;
+    }
+}
 .flex-containers {
     margin-top: 40px;
     display: flex;
@@ -131,6 +155,7 @@ section p,h2 {
     width: 330px;
     /* margin: 30px; */
 }
+
 main {
     padding: 20px;
 }
@@ -297,6 +322,11 @@ main {
     max-width: 800px;
     width: 100%;
 }
+@media only screen and (max-width: 620px) {
+    .footer-text {
+        width: 160px;
+    }
+}
 .footer-logo {
     display: flex;
     gap: 10px;
@@ -317,7 +347,15 @@ table {
     padding: 0 20px;
     
 }
-
+.footer-wrapper img {
+    left: 50%;
+}
+@media only screen and (min-width: 1200px) {
+    .footer-wrapper img {
+        left: 850px;
+        width: 160px;
+    }
+}
 .footeris {
     display: flex;
     justify-content: center;
@@ -328,7 +366,7 @@ table {
     color: lightgray;
 }
 .footer-contents {
-    margin: 60px;
+    margin: 0 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -337,8 +375,9 @@ table {
   
   .right-footer {
     font-family: 'Inter';
-font-style: normal;
+    font-style: normal;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 10px;
+    margin-top: 20px;
   }
