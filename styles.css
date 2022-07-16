@@ -232,6 +232,13 @@ table {
     align-items: center;
     justify-content: space-between;
 }
-thead {
+.footer-contents-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
     
+}
+.copyright {
+    padding: 20px;
+    color: lightgray;
 }
