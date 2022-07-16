@@ -14,6 +14,16 @@ header {
     display: none;
     height: 100%;
 }
+@media only screen and (min-width: 1020px) {
+    .navigation {
+        display: flex;
+        gap: 10px;
+        padding: 60px;
+    }
+    .hamburger {
+        display: none;
+    }
+}
 .header-right {
     align-items: center;
     display: flex;
@@ -22,27 +32,38 @@ header {
 .Logo {
     display: flex;
     gap: 10px;
+    margin: 40px;
 }
 aside img {
     position: absolute;
-    left: 270px;
-    height: 280px;
+    left: 1200px;
+    height: 350px;
+}
+@media only screen and (min-width: 1020px) {
+    
 }
 .aside-wrapper {
     position: relative;
-    padding: 0 20px;
+    padding: 0 60px;
     text-align: left;
 }
 .purple-text {
     color: #FF3998;
-    padding: 0 20px;
 }
 .h1-text {
     font-weight: 900;
-    font-size: 42px;
+    font-size: 70px;
     position: relative;
-    width: 250px;
-    padding: 0 20px;
+    width: 450px;
+    font-family: 'Inter';
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 1500px;
 }
 .main-button {
     background-color: transparent;
@@ -53,20 +74,23 @@ aside img {
     font-weight: bold;
     margin-bottom: 30px;
 }
+@media only screen and (min-width: 1020px) {
+
+}
 aside p {
-    width: 250px;
-    padding-bottom: 10px;
-    color: #555555;
+    width: 650px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 150%;
-    padding: 0 20px;
 }
 .under-aside {
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 60px;
+    width: auto;
+    border-radius: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -77,7 +101,8 @@ aside p {
 }
 
 section p,h2 {
-    width: 250px;
+    width: 330px;
+    margin: 30px;
 }
 main {
     padding: 20px;
@@ -106,9 +131,15 @@ main {
     font-size: 20px;
     line-height: 150%;
 }
+@media only screen and (min-width: 1020px) {
+    .carusel-section {
+        overflow: hidden;
+        overflow-y: hidden;
+    }
+}
 .carusel-section {
-    /*   background: lightgray; */
-      width: 400px;
+    margin: 60px;
+      width: 100%;
       height: 320px;
       overflow: scroll;
       overflow-y: hidden;
@@ -204,24 +235,24 @@ main {
 }
 .footer-img {
     position: absolute;
-    left: 270px;
+    left: 1000px;
     height: 280px;
 }
 .footer-wrapper {
     position: relative;
+    margin: 60px;
 }
 .footer-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
-    padding: 0 20px;
-    width: 250px;
+    width: 800px;
 }
 .footer-logo {
-    padding: 0 20px;
     display: flex;
     gap: 10px;
+
 }
 .social-media {
     padding: 0 20px;
@@ -242,3 +273,18 @@ table {
     padding: 20px;
     color: lightgray;
 }
+.footer-contents {
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .right-footer {
+    font-family: 'Inter';
+font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+  }
