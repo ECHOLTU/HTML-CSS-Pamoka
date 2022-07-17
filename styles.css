@@ -35,6 +35,11 @@ aside {
     display: flex;
     height: 100%;
 }
+@media only screen and (max-width: 620px) {
+    .header-right {
+        width: 150px;
+    }
+}
 .Logo {
     display: flex;
     gap: 10px;
